@@ -1,0 +1,3 @@
+avrdude -c usbasp -p atmega8 -U flash:w:"$(ProjectDir)Debug\$(TargetName).hex":i
+
+%PROJ_PATH%\tools\avrdude.exe -C %PROJ_PATH%\tools\avrdude.conf -c usbasp -p %TARGET_MCU% -B12 -U flash:w:%PROJ_PATH%\Debug\%PROJ_DIR%.hex:i
