@@ -1,0 +1,347 @@
+{
+  "uuid": "ef348ba1b7c840084756b0722f45d09b",
+  "path": "Offline/ServoControl",
+  "name": "ServoControl",
+  "content": "",
+  "created_at": "2022-01-11 20:25:05",
+  "updated_at": "2022-01-12 01:12:27",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "d7534e2ae5f74171e78dd94bf6841467",
+      "title": "Schema_Servocontrol",
+      "description": "",
+      "docType": "1",
+      "master": "6a09ab1c61a370fac3fdfeb0b9bb7f17",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "a3a7a637246d4c702ca6c4476d40e705": 1,
+        "c96275c804694361be97a6b710bb55bc": 1,
+        "75309460f2bb46e49f2b80aea2ba60f2": 1,
+        "e99ee054b6dde646ab46be1e5408730f": 2,
+        "b0489b47ea5b4c2da65b8bd9115af592": 1,
+        "e8227dd34355fb317f612b5079bf676c": 1,
+        "7d60c8281d85404fa4675b45a31e7d5d": 1,
+        "e7a5b9ec77dc4472933e6a52507fc69a": 1,
+        "c379613eabdd4ff9baeffe9074e37550": 1,
+        "a8d07c59878344069efafa796b94091a": 2,
+        "f5fb5a24e9edc515352eb800d4f925df": 1,
+        "3f0abd884d2eed6fe8895300cb5be9bf": 1,
+        "4e6a0e4de1db4e049b50f8450b12f248": 1,
+        "8b45668713ef4fbab46b61269552508a": 1,
+        "5ebbcc83e36b4607ba39fa26fa04437e": 2,
+        "fcaba4851eda4ca19d4326a668633a30": 1,
+        "bb009484ef804a24ac5d18c54b249586": 1,
+        "fd11c9e744c44aeab6011e8bd4c3ea86": 2
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "USBasp",
+          1,
+          "USBASP",
+          "ASP",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "4ecd8741287840c9b7fb75befbe1e586",
+            "uuid": "c96275c804694361be97a6b710bb55bc"
+          }
+        ],
+        [
+          "BATTERY18650",
+          1,
+          "BATTERY_18650-HOLDER",
+          "BAT1",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "a8cca5dd1f454a4faa0555e16c2dc957",
+            "uuid": "75309460f2bb46e49f2b80aea2ba60f2"
+          }
+        ],
+        [
+          "22pF",
+          2,
+          "CAP-TH_L3.5-W3.0-P2.54-D0.8",
+          "C1,C2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "ReliaPro",
+            "BOM_Manufacturer Part": "22pf/50V 10%",
+            "BOM_Supplier Part": "C9316",
+            "puuid": "ec80956e0bac406aac063a7f9c07ee9a",
+            "uuid": "e99ee054b6dde646ab46be1e5408730f"
+          }
+        ],
+        [
+          "100nf",
+          2,
+          "CERAMIC CAPACITOR 100NF 50V LEADED",
+          "C3,C4",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "ReliaPro",
+            "BOM_Manufacturer Part": "Ceramic capacitors47PF 3KV",
+            "BOM_Supplier Part": "C19375",
+            "puuid": "c78ad459614d444796c959a5c2ee342b",
+            "uuid": "a8d07c59878344069efafa796b94091a"
+          }
+        ],
+        [
+          "10uF",
+          2,
+          "C0603",
+          "C5,C6",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "fd11c9e744c44aeab6011e8bd4c3ea86"
+          }
+        ],
+        [
+          "button6*6*8.5",
+          1,
+          "KEY-TH_4P-L6.0-W6.0-P4.50",
+          "KEY1",
+          {
+            "BOM_Supplier Part": "C59980",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "ReliaPro",
+            "BOM_Manufacturer Part": "button6*6*8.5",
+            "puuid": "9096c4e6bc254754b0b895e85df2faca",
+            "uuid": "e8227dd34355fb317f612b5079bf676c"
+          }
+        ],
+        [
+          "TZ-L2-05YYBY1YCJ30-001",
+          1,
+          "LED-TH_BD5.9-P2.54-RD_YELLOW",
+          "LED1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C779441",
+            "BOM_Manufacturer": "TUOZHAN",
+            "BOM_Manufacturer Part": "TZ-L2-05YYBY1YCJ30-001",
+            "puuid": "38aa65b019334e78b33248a56c8b91bb",
+            "uuid": "7d60c8281d85404fa4675b45a31e7d5d"
+          }
+        ],
+        [
+          "LTL-4221N",
+          1,
+          "LED-TH_BD3.0-P2.54-RD-RED",
+          "LED2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C125081",
+            "BOM_Manufacturer": "Lite-On",
+            "BOM_Manufacturer Part": "LTL-4221N",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "72940c2eedd7482e8e72ab237bb406c2",
+            "uuid": "4e6a0e4de1db4e049b50f8450b12f248"
+          }
+        ],
+        [
+          "TJ-L3FYWXHTCGSFLC7K-A5",
+          1,
+          "LED-TH_BD3.0-P2.54-D0.5-FD_GREEN",
+          "LED3",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C331045",
+            "BOM_Manufacturer": "TOGIALED",
+            "BOM_Manufacturer Part": "TJ-L3FYWXHTCGSFLC7K-A5",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "4b6661caa9244d40abc1ff2560309a3b",
+            "uuid": "8b45668713ef4fbab46b61269552508a"
+          }
+        ],
+        [
+          "470",
+          1,
+          "RES-TH_BD4.5-L11.5-P15.50-D0.7",
+          "R1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C119478",
+            "BOM_Manufacturer": "Chian Chia Elec",
+            "BOM_Manufacturer Part": "-",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "9acf9bb6fa4148f0b9bbcc50d6ef648b",
+            "uuid": "e7a5b9ec77dc4472933e6a52507fc69a"
+          }
+        ],
+        [
+          "1K",
+          2,
+          "RES-TH_BD5.5-L15.0-P19.00-D0.8",
+          "R2,R3",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C348856",
+            "BOM_Manufacturer": "ResistorToday",
+            "BOM_Manufacturer Part": "EWWR0003J1K00T9",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "41577707e9b645dba76296e994f3afbb",
+            "uuid": "5ebbcc83e36b4607ba39fa26fa04437e"
+          }
+        ],
+        [
+          "0.4",
+          1,
+          "R0603",
+          "R4",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "bb009484ef804a24ac5d18c54b249586"
+          }
+        ],
+        [
+          "10k",
+          1,
+          "RES-ADJ-TH_3386P",
+          "RP1",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "",
+            "puuid": "ce6e0cc9b0684cd986edbf86d7075dfd",
+            "uuid": "fcaba4851eda4ca19d4326a668633a30"
+          }
+        ],
+        [
+          "SERVO SG90",
+          1,
+          "SERVO_SG90_TH",
+          "S1",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "91f7626ce2a843a286a66bdbe7d470ef",
+            "uuid": "c379613eabdd4ff9baeffe9074e37550"
+          }
+        ],
+        [
+          "ATMEGA16A-PU",
+          1,
+          "DIP-40_L52.3-W13.9-P2.54-LS15.2-BL",
+          "U1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "MICROCHIP",
+            "BOM_Manufacturer Part": "ATMEGA16A-PU",
+            "BOM_Supplier Part": "C30504",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "b92daa500f004b90a2ea0718943f8a91",
+            "uuid": "a3a7a637246d4c702ca6c4476d40e705"
+          }
+        ],
+        [
+          "XTAL_HC49SMT",
+          1,
+          "CRYSTAL-SMD_L11.4-W4.8-LS12.7",
+          "U2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C9900001625",
+            "BOM_Manufacturer": "null",
+            "BOM_Manufacturer Part": "XTAL_HC49SMT",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "2368f58a489543798b8387353af2ca86",
+            "uuid": "b0489b47ea5b4c2da65b8bd9115af592"
+          }
+        ],
+        [
+          "TP4056",
+          1,
+          "ESOP-8_L4.9-W3.9-P1.27-LS6.0-BL-EP",
+          "U3",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "TOPPOWER",
+            "BOM_Manufacturer Part": "TP4056",
+            "BOM_Supplier Part": "C16581",
+            "BOM_JLCPCB Part Class": "Basic Part",
+            "puuid": "7568fee05bc44581b2c32625ae15b3f8",
+            "uuid": "f5fb5a24e9edc515352eb800d4f925df"
+          }
+        ],
+        [
+          "micro 5PBoard0.4",
+          1,
+          "MICRO-USB-SMD_5P-P0.65-H-F_MICRO-USB-5P",
+          "USB1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "ValuePro",
+            "BOM_Manufacturer Part": "micro 5PBoard0.4No column lengthened0.75Plus welding feet",
+            "BOM_Supplier Part": "C40947",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "7ed84ec4f2c245b4a24bb8e1c021c5aa",
+            "uuid": "3f0abd884d2eed6fe8895300cb5be9bf"
+          }
+        ]
+      ],
+      "updateTime": 1641942747,
+      "createTime": 1641926974,
+      "histories": [],
+      "created_at": "2022-01-11 20:49:34",
+      "updated_at": "2022-01-12 01:12:27"
+    },
+    {
+      "uuid": "90db634a67e7118c42db410bea965470",
+      "puuid": "ef348ba1b7c840084756b0722f45d09b",
+      "title": "PCB_Servocontrol",
+      "filename": "PCB_Servocontrol.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "4ecd8741287840c9b7fb75befbe1e586": 1,
+        "a8cca5dd1f454a4faa0555e16c2dc957": 1,
+        "ec80956e0bac406aac063a7f9c07ee9a": 2,
+        "c78ad459614d444796c959a5c2ee342b": 2,
+        "f8151fdc728a41ebbc304e11d39e5437": 2,
+        "9096c4e6bc254754b0b895e85df2faca": 1,
+        "38aa65b019334e78b33248a56c8b91bb": 1,
+        "72940c2eedd7482e8e72ab237bb406c2": 1,
+        "4b6661caa9244d40abc1ff2560309a3b": 1,
+        "9acf9bb6fa4148f0b9bbcc50d6ef648b": 1,
+        "41577707e9b645dba76296e994f3afbb": 2,
+        "398691f1f785460098bbe5ee6590333c": 1,
+        "ce6e0cc9b0684cd986edbf86d7075dfd": 1,
+        "91f7626ce2a843a286a66bdbe7d470ef": 1,
+        "b92daa500f004b90a2ea0718943f8a91": 1,
+        "2368f58a489543798b8387353af2ca86": 1,
+        "7568fee05bc44581b2c32625ae15b3f8": 1,
+        "7ed84ec4f2c245b4a24bb8e1c021c5aa": 1
+      },
+      "BOM": [],
+      "updateTime": 1641939035,
+      "createTime": 1641938986,
+      "histories": [],
+      "created_at": "2022-01-12 00:09:46",
+      "updated_at": "2022-01-12 00:10:35"
+    }
+  ],
+  "sort": [],
+  "title": "ServoControl",
+  "foldername": "ServoControl",
+  "schfilename": "ServoControl.json",
+  "schfilemtime": 1641942747671
+}
